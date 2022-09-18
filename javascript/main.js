@@ -29,8 +29,6 @@ const Main={
     },
     calcularButton_click:function()
     {
-      let value=this.$campoValor.value;
-      this.$resultado.innerHTML=value;
       this.Converter();
     }
   },
