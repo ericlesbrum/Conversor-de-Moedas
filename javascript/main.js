@@ -21,10 +21,7 @@ const Main={
   Events:{
     trocarElementoTitulo:function()
     {
-<<<<<<< HEAD
-=======
       this.$resultado.value='';
->>>>>>> master
       let value=this.$select.value;
       if(value=="")
         value='---'
@@ -84,8 +81,4 @@ const Main={
       
   }
 }
-<<<<<<< HEAD
 Main.init();
-=======
-Main.init();
->>>>>>> master
